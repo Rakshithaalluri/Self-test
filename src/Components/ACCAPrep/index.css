@@ -1,0 +1,90 @@
+.acca-request-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6f7ff;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.in-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.acca-container {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  margin-top: 0px;
+  margin: 10px;
+  border-radius: 4px;
+  /* box-shadow: 1px 1px 1px 1px grey;*/
+  padding: 20px;
+}
+.heading-acca {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.acca-description {
+  color: #000000;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.Seat-button {
+  background-color: #cc2900;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.request-callback-function-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 33vh;
+  box-shadow: 1px 1px 6px 1px grey;
+  border-radius: 3px;
+  border-top: 3px solid #5a0c5a;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+.request-heading {
+  font-size: 15px;
+}
+
+.texting {
+  width: 90%;
+  margin: 4px;
+  font-family: "Roboto";
+  border: 1px grey solid;
+  height: 23px;
+}
+
+.request-button {
+  width: 92%;
+  color: #ffffff;
+  background-color: #5a0c5a;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  height: 45px;
+  margin-top: 5px;
+}

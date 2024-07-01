@@ -1,0 +1,48 @@
+.eligibility-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .eligibility-container {
+    flex-wrap: wrap;
+    width: 90%;
+    border: 1px red solid;
+    margin-left: 20px;
+  }
+}
+
+.eligibility-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  box-shadow: 1px 1px 6px 1px grey;
+  border-radius: 3px;
+  border-top: 3px solid #5a0c5a;
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 10px;
+}
+@media (max-width: 768px) {
+  .eligibility-section {
+    width: 100px;
+  }
+}
+
+.el-title {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.el-description {
+  color: #5a0c5a;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 0px;
+}

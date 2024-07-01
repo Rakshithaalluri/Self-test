@@ -1,0 +1,55 @@
+.placements-assistance {
+  background-color: #e6e6ff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.placements-heading {
+  color: #5a0c5a;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+@media (max-width: 768px) {
+  .placements-heading {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+}
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+@media (max-width: 768px) {
+  .resume-container {
+    margin-left: 10px;
+  }
+}
+.resume-heading {
+  color: #000000;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+@media (max-width: 768px) {
+  .resume-heading {
+    font-size: 13px;
+  }
+}
+.resume-text {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .resume-text {
+    font-size: 10px;
+  }
+}
